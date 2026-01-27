@@ -12,7 +12,7 @@ const TeamAndInitiatives = () => {
       name: "Clara thompson",
       image: "/Team2.png",
       tags: ["Chicago", "Managing Partner", "Lead Business Consultant"],
-      socials: true, // সোশ্যাল আইকন দেখানোর জন্য
+      socials: true, 
     },
     {
       name: "James whitmore",
@@ -31,8 +31,8 @@ const TeamAndInitiatives = () => {
   ];
 
   return (
-    <section className=" bg-amber-700 ">
-      <div className=" relative w-full bg-[#051925]  border-amber-950 pt-20  pb-[400px]  mb-92">
+    <section className="  max-w-[1620px] mx-auto">
+      <div className=" relative w-full bg-[#041C2C]  border-amber-950 pt-20  pb-[360px]  mb-72">
         {/* Team Section */}
         <div className="max-w-7xl mx-auto px-6 mb-24 ">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -83,13 +83,13 @@ const TeamAndInitiatives = () => {
 
         {/* Global Initiatives Banner */}
         <div className="absolute right-0 ">
-          <div className="relative w-[1200px] h-[570px] overflow-hidden">
+          <div className="relative w-[1300px] h-[550px] overflow-hidden">
             <img
               src="/TeambigImage.jpg"
               alt="Initiatives"
               className="w-full h-full object-cover "
             />
-            <div className="absolute inset-0 bg-black/40 flex flex-col justify-end p-12 md:p-20">
+            <div className="absolute inset-0 bg-black/10 flex flex-col justify-end p-12 md:p-20">
               <h2 className="text-white text-4xl md:text-5xl  max-w-xl leading-tight">
                 Contributing Important <br />
                 Global Initiatives
