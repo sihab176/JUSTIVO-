@@ -1,3 +1,4 @@
+import CaseStudy from "@/components/CaseStudy";
 import Driving from "@/components/Driving";
 import HeroSection from "@/components/HeroSection";
 import InternSection from "@/components/InternSection";
@@ -5,6 +6,7 @@ import Marquee from "@/components/Marquee";
 import Navbar from "@/components/Navbar";
 import NavbarTop from "@/components/NavbarTop";
 import ServingClient from "@/components/ServingClient";
+import TeamAndInitiatives from "@/components/TeamAndInitiatives";
 import TestimonialSection from "@/components/TestimonialSection";
 
 export default function Home() {
@@ -18,7 +20,9 @@ export default function Home() {
         <ServingClient />
         <InternSection />
         <Marquee />
-       <TestimonialSection/>
+        <TestimonialSection />
+        <CaseStudy />
+        <TeamAndInitiatives/>
       </div>
     </section>
   );

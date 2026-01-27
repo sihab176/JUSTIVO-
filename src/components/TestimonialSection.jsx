@@ -23,7 +23,7 @@ const TestimonialSection = () => {
     testimonials.find((t) => t.name === activeTab) || testimonials[1];
 
   return (
-    <section className="max-w-[1620px] mx-auto">
+    <section className="max-w-[1620px] mx-auto mb-20">
       <div className="relative w-full bg-[#051925] py-24 px-6 overflow-hidden text-center">
         {/* Quotation  */}
         <div className="absolute bottom-10 right-28 ">
