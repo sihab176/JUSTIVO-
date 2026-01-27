@@ -23,7 +23,7 @@ const ServingClient = () => {
   ];
 
   return (
-    <section className="max-w-[1620px] mx-auto px-20  mb-20">
+    <section className="max-w-[1620px] mx-auto px-20  ">
       <div className="flex flex-col md:flex-row gap-12 items-start">
         {/* Left Side: Image Gallery with Green Border */}
         <div className="w-full md:w-1/2 ">
@@ -67,10 +67,10 @@ const ServingClient = () => {
             {/* Right side Vertical Line and Arrows */}
             <div className="absolute right-0 top-0 h-full flex flex-col items-center">
               <div className="flex items-center gap-7 ">
-                <div className="w-[1px] h-52 bg-primary mb-18"></div>
+                <div className="w-[1px] h-48 bg-primary mb-18"></div> 
                 <div className="flex flex-col gap-6 mb-18">
-                  <img src="/arrow-left (1).png" alt="arrow top" />
-                  <img src="/arrow-left (1).png" alt="arrow bottom" className="rotate-180" />
+                  <img src="/arrow-left (1).png" alt="arrow top"  className="h-[50px]"/>
+                  <img src="/arrow-left (1).png" alt="arrow bottom" className="rotate-180 h-[50px]" />
                 </div>
               </div>
             </div>
