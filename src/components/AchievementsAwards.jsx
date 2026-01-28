@@ -46,13 +46,13 @@ const AchievementsAwards = () => {
         },
       ]
   return (
-    <section className="max-w-7xl mx-auto  pb-10 ">
+    <section className="max-w-7xl mx-auto  pb-20 ">
 
 
       {achive.map((item, index) => (
         <div
           key={index}
-          className="flex flex-col md:flex-row items-center gap-8 md:gap-16"
+          className="flex flex-col md:flex-row items-center gap-8 md:gap-16 "
         >
           {/* LEFT COUNTER */}
           <div className="w-full md:w-1/4">

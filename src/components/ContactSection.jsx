@@ -5,7 +5,7 @@ import { IoLocationOutline } from "react-icons/io5";
 
 const ContactSection = () => {
   return (
-    <section className="max-w-[1620px] mx-auto  py-20 ">
+    <section className="max-w-[1620px] mx-auto  pb-20 ">
       <section className="  ">
         <div className="grid grid-cols-15  right-0 lg:flex-row items-center gap-16 lg:gap-24 ">
           {/* Left Side: Contact Information */}

@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-[#051925] text-white pt-24 pb-10 px-6 md:px-12 relative overflow-hidden">
+    <footer className="w-full bg-[#051925] max-w-[1620px] mx-auto text-white pt-24 pb-10 px-6 md:px-12 relative overflow-hidden">
       {/* Background Watermark (Lady Justice Illustration) */}
       <div className="absolute left-[25%] top-1/2 -translate-y-1/2  pointer-events-none">
         <img

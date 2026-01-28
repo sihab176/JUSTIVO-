@@ -27,7 +27,7 @@ const CaseStudy = () => {
   ];
 
   return (
-    <section className=" px-6 py-20 max-w-[1620px] mx-auto  flex flex-col md:flex-row bg-white font-serif">
+    <section className=" px-6 pb-20 max-w-[1620px] mx-auto  flex flex-col md:flex-row bg-white font-serif">
       {/* Left Side: Vertical Title */}
       <div className="md:w-2/13 ml-10">
         <h2 className="text-4xl text-gray-800   top-10">Case study</h2>

@@ -3,7 +3,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Subscribesection = () => {
   return (
-    <section>
+    <section className="max-w-[1620px] mx-auto">
       <div className="flex justify-center items-center bg-[#BE7D6026] py-18">
         <div className="relative">
           <input

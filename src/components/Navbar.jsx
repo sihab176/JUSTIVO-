@@ -2,7 +2,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="px-20 mt-[15px] flex items-center justify-between">
+    <section className="max-w-[1620px] mx-auto">
+        <nav className="px-20 mt-[15px] flex items-center justify-between">
       <div className="flex items-center  gap-2">
         <img src="/OBJECTS.png" alt="logo" className="w-[50px] h-[50px]" />
         <h2 className="text-[24px]">JUSTIVO</h2>
@@ -20,6 +21,7 @@ const Navbar = () => {
         </button>
       </div>
     </nav>
+  </section>
   );
 };
 

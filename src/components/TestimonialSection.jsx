@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import { IoStarSharp } from "react-icons/io5";
 
 const TestimonialSection = () => {
-  // স্লাইডার বা ট্যাব কন্ট্রোল করার জন্য স্টেট
   const [activeTab, setActiveTab] = useState("James Walker");
 
   const testimonials = [
@@ -27,7 +26,11 @@ const TestimonialSection = () => {
       <div className="relative w-full bg-[#051925] py-24 px-6 overflow-hidden text-center">
         {/* Quotation  */}
         <div className="absolute bottom-10 right-28 ">
-          <img src="/quote 1.png" alt="Quotation" className="w-[200px] h-[200px]" />
+          <img
+            src="/quote 1.png"
+            alt="Quotation"
+            className="w-[200px] h-[200px]"
+          />
         </div>
 
         <div className="max-w-4xl mx-auto relative z-10">

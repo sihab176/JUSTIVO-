@@ -13,7 +13,7 @@ const HeroSection = () => {
         </h1>
         <HeroLogo />
       </div>
-     
+
       <section className=" flex max-w-[1620px] mx-auto">
         <div className=" flex flex-col-reverse justify-around items-center  py-10 w-22 border-r border-gray-100 ">
           {links.map((link, index) => (
@@ -29,7 +29,7 @@ const HeroSection = () => {
           ))}
         </div>
 
-        {/* ✅ col-span এখানে */}
+        {/* image */}
         <div className=" ">
           <img
             className="w-[1620px] h-[600px] object-cover"

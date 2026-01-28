@@ -4,8 +4,6 @@ const InternSection = () => {
   return (
     <section className="max-w-[1620px] mx-auto">
       <div className="relative  w-full   overflow-hidden min-h-[600px] flex items-center justify-center gap-20">
-        {/* Background Images - Scattered Layout */}
-
         {/* Top Right Image */}
         <div className="absolute   -top-10 right-[11%] w-48 h-64 hidden md:block">
           <img
@@ -33,7 +31,7 @@ const InternSection = () => {
           />
         </div>
 
-        {/* Main Content Area */}
+        {/* Main Content  */}
         <div className="relative z-10 text-center max-w-2xl px-6">
           <h2 className="text-5xl md:text-7xl font-serif text-gray-900 mb-6 tracking-tight">
             become our intern

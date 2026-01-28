@@ -37,7 +37,7 @@ const RecentNews = () => {
   ];
 
   return (
-    <section className="max-w-[1620px] mx-auto  py-20  ">
+    <section className="max-w-[1620px] mx-auto  pb-20  ">
       {/* Header */}
       <div className="flex items-center gap-4 ml-20">
          <div className="flex items-center gap-[200px] mb-16  pb-4 ">
